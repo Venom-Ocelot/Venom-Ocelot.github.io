@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {background-color:#ffffff;background-image:url(http://news.toyark.com/wp-content/uploads/sites/4/2013/12/MGSV-Skull-Face-Play-Arts-Kai-928x200.jpg);background-repeat:repeat;background-position:top left;background-attachment:fixed;}
+h1{font-family:Arial, sans-serif;color:#000000;background-color:#ffffff;}
+p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
+</style>
+</head>
+<body>
+<h1>Cipher's Secret Python Code </h1>
+<p>Boss... We found one of Cipher's secret codes, but it's written in a programming language called "Python." Care to take a look? </p>
+<p></p>
+<p>text = input("Type something: ")</p>
+<p>x = str(input("What word to look for? "))</p>
+<p>words = []</p>
+<p></p>
+<p>for i in text:</p>
+<p>    if i == ' ':</p>
+<p>        index = text.index(i)</p>
+<p>        word = text[:index]</p>
+<p>        text = text[index+1:]</p>
+<p>        words.append(word)</p>
+<p></p>
+<p>print(words.index(x) + 1)</p>
+</body>
+</html>
